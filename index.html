@@ -1,0 +1,1089 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tom Beague</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/elliot.jfif" />
+        <link href="assets/img/favicon.png" rel="icon">
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+       
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/newstyles1.css" rel="stylesheet" />
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+9JQ6D5H9zZ5RAsjmcGXPkq78xiPLz5B+OyRHIn03P4Ttc4c8dVl7aCIaJ" crossorigin="anonymous"></script>
+<script>
+    var timeline1Modal = new bootstrap.Modal(document.getElementById('timeline1'));
+
+    document.getElementById('timeline1').addEventListener('shown.bs.modal', function () {
+        var video = document.getElementById('timeline1-video');
+        video.play();
+    });
+
+    document.getElementById('timeline1').addEventListener('hidden.bs.modal', function () {
+        var video = document.getElementById('timeline1-video');
+        video.pause();
+        video.currentTime = 0; // Réinitialiser la vidéo à partir du début
+    });
+</script>
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Beague Tom</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#profil">Mon Profil</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skema">L'audiovisuel ?</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#parcours">Mes réalisations</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Recommandations</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-white text-white text-center position-relative">
+            <div class="video-container position-absolute top-0 left-0 w-100 h-100">
+                <video autoplay loop muted playsinline class="w-100 h-100 masthead-video">
+                    <!-- Ajoutez le chemin de votre fichier vidéo dans l'attribut "src" -->
+                    <source src="assets/video/background.MP4" type="video/mp4">
+                    Votre navigateur ne prend pas en charge la balise vidéo.
+                </video>
+            </div>
+        
+            <div class="container d-flex align-items-center flex-column position-relative">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5 rounded-circle img-fluid" src="assets/img/anime_tom/icone2.png" alt="..." />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0 text-white">Beague Tom</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0 text-white">CV numérique 2024</p>
+            </div>
+        </header>
+        
+        
+        
+        
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio bg-primary" id="profil">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-light mb-0">Ce qui m'anime</h2>
+                <!-- Icon Divider-->
+                 <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                
+                <!-- Portfolio Grid Items-->
+<!-- Portfolio Grid Items-->
+<div class="row justify-content-center">
+    <!-- Portfolio Item 1-->
+    <div class="col-md-4 mb-5">
+        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/anime_tom/drone1.JPG" alt="..." style="object-fit: cover; width: 400px; height: 200px;">
+        </div>
+    </div>
+    <!-- Portfolio Item 2-->
+    <div class="col-md-4 mb-5">
+        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/anime_tom/automobile1.JPG" alt="..." style="object-fit: cover; width: 400px; height: 200px;">
+        </div>
+    </div>
+    <!-- Portfolio Item 3-->
+    <div class="col-md-4 mb-5">
+        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/anime_tom/photo1.jpg" alt="..." style="object-fit: cover; width: 400px; height: 200px;">
+        </div>
+    </div>
+</div>
+
+<!-- Second Row -->
+<div class="row justify-content-center">
+    <!-- Portfolio Item 4-->
+    <div class="col-md-4 mb-5">
+        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/anime_tom/vidéo1.jpg" alt="..." style="object-fit: cover; width: 400px; height: 200px;">
+        </div>
+    </div>
+    <!-- Portfolio Item 5-->
+    <div class="col-md-4 mb-5">
+        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/anime_tom/montage1.jpg"alt="..." style="object-fit: cover; width: 400px; height: 200px;">
+        </div>
+    </div>
+    <!-- Portfolio Item 6-->
+    <div class="col-md-4 mb-5">
+        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+            </div>
+            <img class="img-fluid" src="assets/img/anime_tom/jeuvideo1.avif" alt="..." style="object-fit: cover; width: 400px; height: 200px;">
+        </div>
+    </div>
+</div>
+                </div>
+            </div>
+        </section>
+        
+<!--Start about us area-->
+<section class="service-tab-section projects-section2" id="skema">
+    <div class="container">
+        <!-- Portfolio Section Heading-->
+        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Pourquoi l'audiovisuel ?</h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+    <div class="outer-box clearfix">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <!-- Nav tabs -->
+            <div class="tabs mb-5">
+              <ul class="nav nav-tabs justify-content-center" id="aboutTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="dormitory-tab" data-toggle="tab" href="#dormitory" role="tab" aria-controls="dormitory" aria-selected="true">Introduction</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="orthopedic-tab" data-toggle="tab" href="#orthopedic" role="tab" aria-controls="orthopedic" aria-selected="false">Pourquoi ?</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="sonogram-tab" data-toggle="tab" href="#sonogram" role="tab" aria-controls="sonogram" aria-selected="false">Une réelle opportunité</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="x-ray-tab" data-toggle="tab" href="#x-ray" role="tab" aria-controls="x-ray" aria-selected="false">Conclusion</a>
+                </li>
+              </ul>
+            </div>
+            <!--Start single tab content-->
+<!--Start single tab content-->
+<div class="tab-content" id="aboutTab">
+    <!-- Dormitory -->
+    <div class="service-box tab-pane fade show active" id="dormitory">
+        <div class="row">
+            <div class="col-lg-6">
+                <img loading="lazy" class="img-fluid" src="assets/img/Audiovisuel_Tom/1.jpeg" alt="service-image" style="object-fit: cover; width: 100%; height: 100%;">
+            </div>
+            <div class="col-lg-6">
+                <div class="contents">
+                    <div class="section-title">
+                        <h3>Introduction</h3>
+                    </div>
+                    <div class="text">
+                        <p>À l'aube de mes 17 ans, ma passion pour l'audiovisuel a émergé comme une force motrice dans ma vie. Attiré par le pouvoir narratif des images, le dynamisme du montage vidéo, et la magie cinématographique, je ressens le besoin ardent de perfectionner mes compétences et d'explorer davantage les nuances de cet art. Rejoindre une école d'audiovisuel représente pour moi l'opportunité de transformer ma passion en expertise, de collaborer avec des esprits créatifs partageant la même vision, et de m'immerger dans un environnement où l'apprentissage et l'innovation cohabitent. C'est dans cette quête de maîtrise artistique et technique que je trouve la motivation de poursuivre mes études dans une école dédiée à l'audiovisuel, pour affiner mes compétences, élargir mes horizons et donner vie à mes rêves cinématographiques. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End single tab content-->
+
+    <!-- Orthopedic -->
+    <div class="service-box tab-pane fade" id="orthopedic">
+        <div class="row">
+            <div class="col-lg-6">
+                <img loading="lazy" class="img-fluid" src="assets/img/Audiovisuel_Tom/2.jpg" alt="service-image" style="object-fit: cover; width: 100%; height: 100%;">
+            </div>
+            <div class="col-lg-6">
+                <div class="contents">
+                    <div class="section-title">
+                        <h3>Pourquoi ?</h3>
+                    </div>
+                    <div class="text">
+                        <p>Mon attrait profond pour l'audiovisuel découle de la conviction que cette forme d'expression transcende les frontières de la communication. À 17 ans, je suis fasciné par le pouvoir des images, de la vidéo, et du son pour capturer des émotions, narrer des histoires, et susciter des sensations uniques. L'audiovisuel devient ainsi la toile sur laquelle je peux peindre mes idées et partager des expériences de manière inoubliable.</p>
+                    <br>
+                    <p>En explorant le monde de la cinématographie, de la photographie, du montage vidéo, et même des jeux vidéo, j'ai découvert un univers infini de possibilités créatives. L'audiovisuel offre la chance d'explorer non seulement la technique, mais aussi la fusion artistique entre le visuel et l'auditif. C'est la possibilité de créer des univers, de transmettre des messages et de captiver le spectateur d'une manière qui va au-delà des simples mots.</p>
+                    <br>
+                    <p>Choisir l'audiovisuel, c'est embrasser une forme d'expression qui me permet de donner vie à mes idées d'une manière puissante et émotionnelle. C'est une invitation constante à innover, à apprendre et à grandir dans un domaine en constante évolution. Rejoindre une école d'audiovisuel représente pour moi une étape cruciale dans cette aventure passionnante, où je pourrai affiner mes compétences, explorer de nouveaux horizons et façonner mon identité artistique dans le monde captivant de l'audiovisuel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End single tab content-->
+
+    <!-- Sonogram -->
+    <div class="service-box tab-pane fade" id="sonogram">
+        <div class="row">
+            <div class="col-lg-6">
+                <img loading="lazy" class="img-fluid" src="assets/img/Audiovisuel_Tom/3.jpg" alt="service-image" style="object-fit: cover; width: 100%; height: 100%;">
+            </div>
+            <div class="col-lg-6">
+                <div class="contents">
+                    <div class="section-title">
+                        <h3>Une réelle opportunité</h3>
+                    </div>
+                    <div class="text">
+                        <p>Intégrer une école d'audiovisuel représente bien plus qu'une simple progression académique pour moi, c'est une opportunité exceptionnelle de transformer ma passion en une carrière enrichissante. À 17 ans, je ressens le besoin d'approfondir mes connaissances et d'acquérir les compétences techniques nécessaires pour exceller dans le monde de l'audiovisuel. Une école spécialisée offre le cadre idéal pour cette croissance, avec des ressources dédiées, des mentors expérimentés, et un environnement stimulant où je pourrai exploiter pleinement mon potentiel créatif. </p>
+                    <br>
+                    <p>L'interaction avec des professionnels de l'industrie au sein de l'école me permettra d'acquérir des perspectives précieuses, de comprendre les dernières tendances et d'élargir mon réseau professionnel dès mes débuts. Les opportunités de stages, les projets collaboratifs et les équipements spécialisés offerts par l'école sont autant de moyens concrets de mettre en pratique mes compétences et de me préparer au mieux pour le monde professionnel de l'audiovisuel. </p>
+                        <br>
+                        <p>Intégrer cette école représente également l'opportunité de collaborer avec des esprits créatifs partageant la même passion, de tisser des liens durables dans l'industrie et de me construire une base solide pour une carrière épanouissante. C'est le tremplin idéal pour concrétiser mes aspirations dans le domaine de l'audiovisuel et faire de ma passion un métier gratifiant. En somme, rejoindre une école d'audiovisuel est pour moi l'opportunité d'investir pleinement dans ma passion, de perfectionner mes compétences et de réaliser mon rêve de contribuer de manière significative à cet univers artistique qui m'inspire tant. </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End single tab content-->
+
+    <!-- X-ray -->
+    <div class="service-box tab-pane fade" id="x-ray">
+        <div class="row">
+            <div class="col-lg-6">
+                <img loading="lazy" class="img-fluid" src="assets/img/Audiovisuel_Tom/4.jpeg" alt="service-image" style="object-fit: cover; width: 100%; height: 100%;">
+            </div>
+            <div class="col-lg-6">
+                <div class="contents">
+                    <div class="section-title">
+                        <h3>Conclusion</h3>
+                    </div>
+                    <div class="text">
+                        <p>En conclusion, l'intérêt passionné que je nourris pour l'audiovisuel, la photographie, le montage vidéo, et les jeux vidéo constitue le socle de ma motivation à rejoindre votre école. À l'aube de mes 17 ans, intégrer cet établissement représente bien plus qu'une simple progression académique. C'est une opportunité exceptionnelle de perfectionner mes compétences, d'explorer de nouveaux horizons créatifs, et de concrétiser mon rêve de faire de ma passion un métier gratifiant. Cette aventure éducative offre non seulement un environnement propice à la croissance artistique, mais également une passerelle vers un réseau professionnel enrichissant. En intégrant cette école d'audiovisuel, je suis déterminé à transformer mes aspirations en une carrière épanouissante, tout en contribuant de manière significative à l'univers captivant de l'audiovisuel. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End single tab content-->
+</div>
+
+              <!--End single tab content-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+        
+  <section class="projects-section2 bg-primary" id="parcours">
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-white text-uppercase">Mes projets</h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+
+        <style>
+            .timeline .timeline-image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+            }
+
+            .timeline .timeline-image img {
+                object-fit: cover;
+                width: 100%;
+                height: 100%;
+                transition: filter 0.3s;
+            }
+
+            .timeline .timeline-image:hover img {
+                filter: brightness(70%);
+                border-radius: 100%;
+            }
+
+            .timeline .timeline-image::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+                opacity: 0;
+                transition: opacity 0.3s;
+                border-radius: 100%;
+            }
+
+            .timeline .timeline-image:hover::before {
+                opacity: 1;
+                border-radius: 100%;
+            }
+
+            .timeline .timeline-image::after {
+                content: '+';
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 24px;
+                color: white;
+                opacity: 0;
+                transition: opacity 0.3s, transform 0.3s;
+            border-radius: 100%;
+            }
+
+            .timeline .timeline-image:hover::after {
+                opacity: 1;
+                border-radius: 100%;
+            }
+
+            .timeline .timeline-image {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .timeline .timeline-discover {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 18px;
+        color: white;
+        opacity: 0;
+        transition: opacity 0.3s;
+    }
+
+    .timeline .timeline-image:hover .timeline-discover {
+        opacity: 1;
+    }
+    
+        </style>
+
+        <ul class="timeline">
+            <li class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#timeline1">
+                <div class="timeline-image"><img class="img-fluid timeline-image" src="assets/img/anime_tom/kheeps09.jpg" alt=""></div>
+                        <div class="timeline-discover">Discover More</div>
+
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Contenu vidéo pour Kheeps09</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-white"> Création de contenu vidéo pour la chaine Kheeps09 </p></div>
+                </div>
+                <div class="timeline-discover">Discover More</div>
+            </li>
+            <li class="timeline-inverted portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#timeline2">
+                <div class="timeline-image"><img class="img-fluid timeline-image" src="assets/img/projet_tom/moto1.JPG" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Entrainements au montage</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-white"> Création de contenu à partir de mes images pour m'entrainer au montage sur Première Pro</p></div>
+                </div>
+                <div class="timeline-discover">Discover More</div>
+
+            </li>
+            <li class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#timeline3">
+                <div class="timeline-image"><img class="img-fluid timeline-image" src="assets/img/projet_tom/France_3_2018.svg" alt="" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>FRANCE3</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-white">Stage d'une semaine dans le groupe FRANCE3</p></div>
+                </div>
+                <div class="timeline-discover">Discover More</div>
+
+            </li>
+            
+            <li class="timeline-inverted portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#timeline4">
+                <div class="timeline-image"><img class="img-fluid timeline-image" src="assets/img/projet_tom/Chien1.jpg" alt="" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Entrainements à la photographie</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-white"> Réalisation de photos canine et des retouches sur le logiciel Lightroom </p></div>
+                </div>
+                <div class="timeline-discover">Discover More</div>
+
+            </li>
+            
+            <li class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#timeline5">
+                <div class="timeline-image"><img class="img-fluid timeline-image" src="assets/img/projet_tom/auto1.JPG" alt="" /></div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Photographe lors d'événements automobiles</h4>
+                    </div>
+                    <div class="timeline-body"><p class="text-white">Réalisation de photographie pour un événement automobile</p></div>
+                </div>
+                <div class="timeline-discover">Discover More</div>
+
+            </li>        </ul>
+    </div>
+</section>
+
+  
+                 <!-- Team-->
+        <section class="page-section bg-light2projects-section2" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Recommandations</h2>
+                      <!-- Icon Divider-->
+                 <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/anime_tom/monteur_fr3.jpeg" alt="..." />
+                            <h4>Remy Chartier</h4>
+                            <p class="color-light">Chef Monteur, France 3</p>
+                            <div class="text-center mt-4">
+                                <a class="btn btn-xl btn-outline-primary" target="_blanks" href="assets/img/Nouveau document/Evaluation de stage.pdf">
+                                    <i class="fas fa-download me-2"></i>
+                                    Télécharger
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/anime_tom/kheeps09.jpg" alt="..." />
+                            <h4>Kheeps09</h4>
+                            <p class="color-light">créateur de contenu</p>
+                            <div class="text-center mt-4">
+                                <a class="btn btn-xl btn-outline-primary" target="_blanks" href="assets/img/Nouveau document/COMING SOON.pdf">
+                                    <i class="fas fa-download me-2"></i>
+                                    Télécharger
+                                </a>
+                            </div>
+                            </div>
+
+                    </div>             
+            </div>
+        </section>
+         <!-- Fiche métier-->
+         <section class="page-section bg-primary projects-section2" >
+          <div class="container">
+              <div class="text-center">
+                  <h2 class="page-section-heading text-center text-uppercase text-white mb-0">Métiers interviewés</h2>
+                    <!-- Icon Divider-->
+                    <div class="divider-custom divider-light">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6">
+                      <div class="team-member">
+                          <img class="mx-auto rounded-circle" src="assets/img/anime_tom/icone.png" alt="..." />
+                          <h4>Nom Métier 1</h4>
+                          <p class="color-light">Métier 1</p>
+                          <div class="text-center mt-4">
+                              <a class="btn btn-xl btn-outline-primary" target="_blanks" href="assets/img/Nouveau document/COMING SOON.pdf">
+                                  <i class="fas fa-download me-2"></i>
+                                  Télécharger
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6">
+                      <div class="team-member">
+                          <img class="mx-auto rounded-circle" src="assets/img/anime_tom/icone2.png" alt="..." />
+                          <h4>Nom métier 2</h4>
+                          <p class="color-light">Métier 2</p>
+                          <div class="text-center mt-4">
+                              <a class="btn btn-xl btn-outline-primary" target="_blanks" href="assets/img/Nouveau document/COMING SOON.pdf">
+                                  <i class="fas fa-download me-2"></i>
+                                  Télécharger
+                              </a>
+                          </div>
+                          </div>
+
+                  </div>
+                  
+              </div>
+            
+          </div>
+      </section>
+        <!-- Resume -->
+        <section class="projects-section2 bg-light2" >
+            <div class="container text-center">
+                <h2 class="page-section-heading text-center text-uppercase mb-0">Télécharger mes documents</h2>
+                <!-- Icon Divider-->
+           <div class="divider-custom">
+              <div class="divider-custom-line"></div>
+              <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+              <div class="divider-custom-line"></div>
+          </div>
+                <div class="row text-center">
+                    <div class="col-md-4 mb-3 mb-md-0"> 
+                        <span class="fa-stack fa-8x ">   
+                            <i class="fas fa-circle fa-stack-2x text-secondary"></i>  
+                            <a href="assets/img/Nouveau document/CV.pdf" target="_blanks" class="cv">
+                                <i class="fas fa-file-pdf fa-stack-1x fa-inverse i-bottom"></i>
+                                <i class="fas fa-download fa-stack fa-inverse i-top" style="width:200px;height:100px;"></i>
+                            </a>
+                        </span> 
+                        <h4 class="my-3">Mon CV</h4>   
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">    
+                        <span class="fa-stack fa-8x ">   
+                            <i class="fas fa-circle fa-stack-2x text-secondary"></i>  
+                            <a href="assets/img/Nouveau document/lettre motivation école.pdf" target="_blanks" class="cv">
+                                <i class="fas fa-file-pdf fa-stack-1x fa-inverse i-bottom"></i>
+                                <i class="fas fa-download fa-stack fa-inverse i-top" style="width:200px;height:100px;"></i>
+                            </a>
+                        </span> 
+                        <h4 class="my-3">Ma lettre de motivation</h4>   
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">    
+                      <span class="fa-stack fa-8x ">   
+                          <i class="fas fa-circle fa-stack-2x text-secondary"></i>  
+                          <a href="assets/img/Nouveau document/Bulletins.pdf" target="_blanks" class="cv">
+                              <i class="fas fa-file-pdf fa-stack-1x fa-inverse i-bottom"></i>
+                              <i class="fas fa-download fa-stack fa-inverse i-top" style="width:200px;height:100px;"></i>
+                          </a>
+                      </span> 
+                      <h4 class="my-3">Mes bulletins</h4>   
+                  </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact-->
+     <!-- Timeline Modals-->
+        <!-- Timeline Modal 1-->
+          
+        <div class="portfolio-modal modal fade" id="timeline1" tabindex="-1" aria-labelledby="timeline1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Creation de contenu vidéo pour kheeps09</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <video id="timeline1-video" class="video-fluid rounded mb-5" controls autoplay muted playsinline>
+                                        <!-- Ajoutez le chemin de votre fichier vidéo dans l'attribut "src" -->
+                                        <source src="assets/img/anime_tom/Vidéo montage 3.mp4" type="video/mp4">
+                                        Votre navigateur ne prend pas en charge la balise vidéo.
+                                    </video>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Dans le cadre de mon parcours d'apprentissage autodidacte, j'ai eu l'opportunité de mettre en pratique mes compétences en audiovisuel en collaborant avec le YouTubeur moto, Kheeps09...</p>
+                                    <p class="mb-4">Ce projet m'a permis de renforcer ma capacité à comprendre et à répondre aux besoins spécifiques d'un client. Travailler avec Kheeps09 a été une immersion précieuse dans le monde exigeant de la production de contenu en ligne...</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <!-- Timeline Modal 2-->
+        
+        <div class="portfolio-modal modal fade" id="timeline2" tabindex="-1" aria-labelledby="timeline2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Entrainements au montage</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <video class="video-fluid rounded mb-5" controls autoplay muted>
+                                        <!-- Ajoutez le chemin de votre fichier vidéo dans l'attribut "src" -->
+                                        <source src="assets/img/anime_tom/ISA.mov" type="video/mp4">
+                                        Votre navigateur ne prend pas en charge la balise vidéo.
+                                    </video>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">En parallèle de mes explorations personnelles, j'ai eu le plaisir de mettre mes compétences en montage vidéo au service de mes proches. Que ce soit pour immortaliser des moments spéciaux en famille ou pour capturer les instants mémorables entre amis, la création de montages est devenue une manière spontanée et chaleureuse de partager des souvenirs.</p>
+                                    <p class="mb-4">Ces projets informels ont représenté pour moi une belle opportunité d'appliquer mes compétences de manière concrète tout en suscitant des émotions authentiques chez ceux qui me sont chers. Répondre aux attentes et aux préférences de mes proches a affiné ma capacité à personnaliser mes créations selon les goûts de chacun. Cette expérience a non seulement renforcé mes liens familiaux et amicaux, mais elle a également nourri ma passion pour le montage vidéo en tant qu'outil puissant de narration visuelle au service des relations humaines.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Timeline Modal 3-->
+        
+        <div class="portfolio-modal modal fade" id="timeline3" tabindex="-1" aria-labelledby="timeline3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Stage chez France 3 : Immersion dans le Monde Professionnel de l'Audiovisuel</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <video class="video-fluid rounded mb-5" controls autoplay muted>
+                                        <!-- Ajoutez le chemin de votre fichier vidéo dans l'attribut "src" -->
+                                        <source src="assets/img/anime_tom/Vidéo montage 3.mp4" type="video/mp4">
+                                        Votre navigateur ne prend pas en charge la balise vidéo.
+                                    </video>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Dans le but de consolider mes aspirations professionnelles dans le domaine de l'audiovisuel, j'ai entrepris un stage non-obligatoire chez France 3, où j'ai eu le privilège de suivre le chef monteur pendant une semaine. Cette expérience immersive a constitué un pas significatif vers la concrétisation de ma passion. Aux côtés du professionnel chevronné, j'ai pu plonger dans les coulisses de la production télévisuelle, découvrant les arcanes du montage à un niveau professionnel. </p>
+                                    <p class="mb-4">Un moment particulièrement enrichissant de ce stage a été la possibilité de réaliser une vidéo à partir de plans aériens, fusionnant ainsi ma passion pour les drones avec mes compétences en montage vidéo. Cette expérience a été une révélation, me permettant de mettre en pratique mes connaissances acquises et de voir comment le montage devient l'élément clé dans la narration visuelle à l'échelle télévisuelle. Ce stage chez France 3 a été une immersion précieuse dans le monde professionnel de l'audiovisuel, renforçant ma détermination à poursuivre une carrière qui marie expertise technique et créativité. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Timeline Modal 4-->
+        
+        <div class="portfolio-modal modal fade" id="timeline4" tabindex="-1" aria-labelledby="timeline4" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Entrainements à la photographie</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/anime_tom/chien2.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Mon cheminement dans le monde de la photographie a pris une dimension unique grâce à mon fidèle compagnon à quatre pattes, mon chien. Ce dernier est devenu mon cobaye photographique, offrant des instants spontanés et authentiques pour parfaire mes compétences. Capturer ses expressions joyeuses, ses moments d'excitation et même ses pauses méditatives a été un défi artistique stimulant.</p>
+                                    <p class="mb-4">L'entrainement avec mon chien m'a permis de maîtriser non seulement l'aspect technique de la photographie, mais aussi la patience et la créativité nécessaires pour immortaliser des sujets vivants. La retouche des photos, étape cruciale de mon processus artistique, a ajouté une dimension supplémentaire à mon apprentissage. Jouer avec la lumière, les couleurs et les contrastes pour sublimer chaque cliché est devenu un exercice passionnant et éducatif.</p>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Timeline Modal 5-->
+        
+        <div class="portfolio-modal modal fade" id="timeline5" tabindex="-1" aria-labelledby="timeline5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Photographe lors des rassos automobile</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/projet_tom/Porsche.JPG" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Mon immersion dans le monde de la photographie a été intensifiée lors de ma participation en tant que photographe lors de rassemblements automobiles. Cette expérience a été bien plus qu'un simple exercice technique ; elle a été une plongée au cœur de la passion automobile et de la culture qui l'entoure. À travers mon objectif, j'ai cherché à saisir l'énergie frénétique des rassemblements, la beauté brute des véhicules et l'enthousiasme contagieux des passionnés.</p>
+                                    <p class="mb-4">Capturer des moments fugaces, figer la puissance des moteurs en action et immortaliser la symbiose entre conducteurs et machines ont été des défis photographiques exaltants. Chaque rassemblement a été une toile vivante où l'esthétique automobile s'entremêle avec la créativité photographique. Jouant avec la lumière naturelle ou artificielle, j'ai cherché à mettre en valeur chaque ligne, chaque détail des véhicules qui défilaient devant mon objectif.</p>
+                                    <p class="mb-4">En devenant le témoin visuel de ces rassemblements, j'ai pu développer ma propre approche artistique tout en contribuant à documenter l'effervescence de la scène automobile locale. Cette expérience a renforcé mon amour pour la photographie en tant que moyen de capturer non seulement des images, mais aussi des instants précieux et éphémères qui définissent la passion automobile.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 1-->
+        
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ma Passion pour les Drones et l'Audiovisuel</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Video-->
+                                    <video class="video-fluid rounded mb-5" controls autoplay muted>
+                                        <!-- Ajoutez le chemin de votre fichier vidéo dans l'attribut "src" -->
+                                        <source src="assets/video/drone.mp4" type="video/mp4">
+                                        Votre navigateur ne prend pas en charge la balise vidéo.
+                                    </video>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">À seulement 17 ans, ma fascination pour l'audiovisuel s'est cristallisée autour de ma passion pour les drones, en particulier mon DJI Mini 2. Piloter cet engin aérien devient un véritable voyage où technologie et créativité se rencontrent. Capturer des images à couper le souffle devient une aventure artistique, chaque vol avec le DJI Mini 2 ouvrant de nouvelles perspectives visuelles. Ces moments deviennent des instantanés uniques qui alimentent ma passion grandissante pour la capture d'images dynamiques.</p>
+                                    <p class="mb-4">Mon drone n'est pas simplement un appareil électronique ; il devient une extension de ma créativité. Les vidéos que je réalise ne sont pas seulement des enregistrements, mais des témoignages visuels de ma jeunesse explorant le monde d'une manière unique. C'est une fusion entre la technologie moderne et la découverte personnelle, une aventure passionnante que je suis impatient de poursuivre dans le monde toujours en expansion de l'audiovisuel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ma passion pour l'automobile</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/projet_tom/auto2.JPG" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Mon cœur bat au rythme passionné de l'automobile. Chaque ligne élégante, chaque rugissement de moteur, chaque virage serré m'emporte dans un monde où la mécanique devient une poésie en mouvement. Mon amour pour les voitures ne se limite pas à l'aspect esthétique ; c'est une véritable connexion émotionnelle.</p>
+                                    <p class="mb-4">De la frissonnante accélération aux discussions animées sur les performances, chaque moment passé dans l'univers automobile alimente ma soif de connaissances et renforce ma dévotion envers cette passion qui, à mes yeux, transcende le simple fait de conduire pour devenir un mode de vie.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" aria-labelledby="portfolioModal3" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Mon intérêt pour la photographie</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/anime_tom/chien.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Je trouve une source infinie d'inspiration dans l'objectif de mon appareil photo. La photographie est bien plus qu'une simple capture d'instantanés ; c'est un moyen de figer l'éphémère, de raconter des histoires sans mots. Mon appareil devient mon complice dans cette quête de beauté visuelle.</p>
+                                    <p class="mb-4">Au-delà de la technique, la photographie devient une manière pour moi de saisir l'émotion brute de l'instant. C'est un langage silencieux qui transcende les barrières linguistiques, permettant aux clichés de parler pour moi. La photographie n'est pas simplement un passe-temps, mais une passion profonde qui me pousse à voir le monde avec un œil toujours curieux et artistique. Chaque image devient une pièce d'un puzzle visuel, formant une chronique personnelle de ma vie à travers le prisme de l'objectif.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!-- Portfolio Modal 4-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" aria-labelledby="portfolioModal4" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+            <div class="modal-body text-center pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <!-- Portfolio Modal - Video-->
+                            <video class="video-fluid rounded mb-5" controls autoplay muted>
+                                <!-- Ajoutez le chemin de votre fichier vidéo dans l'attribut "src" -->
+                                <source src="assets/img/anime_tom/video_moto.mp4" type="video/mp4">
+                                Votre navigateur ne prend pas en charge la balise vidéo.
+                            </video>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="text-left">
+                                <!-- Portfolio Modal - Title-->
+                                <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Une passion pour la vidéo</h2>
+                                <!-- Icon Divider-->
+                                <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                </div>
+                                <!-- Portfolio Modal - Text-->
+                                <p class="mb-4">Mon amour pour l'audiovisuel prend une autre dimension à travers ma passion pour la vidéo. Tenir une caméra entre mes mains n'est pas seulement capturer des séquences, c'est créer des histoires en mouvement. La vidéo devient le médium qui me permet de donner vie à mes idées de manière dynamique.</p>
+                                <p class="mb-4">Chaque projet devient une aventure où la composition, le mouvement de la caméra et le montage se combinent pour raconter une histoire captivante. Explorer les possibilités de la vidéo me pousse à repousser les limites de ma créativité.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" aria-labelledby="portfolioModal5" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Ma passion pour le montage vidéo</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                     <!-- Portfolio Modal - Video-->
+                            <video class="video-fluid rounded mb-5" controls autoplay muted>
+                                <!-- Ajoutez le chemin de votre fichier vidéo dans l'attribut "src" -->
+                                <source src="assets/img/anime_tom/video_moto2.mp4" type="video/mp4">
+                                Votre navigateur ne prend pas en charge la balise vidéo.
+                            </video>
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Mon enthousiasme pour l'audiovisuel prend une forme particulière à travers ma passion pour le montage vidéo. Derrière l'écran d'ordinateur, je deviens le maître d'orchestre, fusionnant des séquences disparates pour créer une symphonie visuelle captivante. Le montage devient le véritable art de transformer des prises de vues brutes en une narration fluide et percutante.</p>
+                                    <p class="mb-4">C'est le processus créatif qui donne vie à mes idées, transformant des moments en souvenirs intemporels. À travers chaque clic de montage, je donne une nouvelle perspective à mes créations, façonnant ainsi mon identité en tant que conteur visuel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" aria-labelledby="portfolioModal6" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Les jeux vidéos</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/anime_tom/jeuvideo2.jpg" alt="..." />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Plonger dans l'univers des jeux vidéo n'est pas seulement un loisir, c'est une exploration immersive de la créativité des développeurs, de la complexité des scénarios et de la variété des compétences requises.</p>
+                                    <p class="mb-4">Les jeux vidéo ne sont pas seulement des divertissements interactifs ; ils sont une source d'inspiration qui aiguise ma curiosité pour la technologie, le design et la narration interactive. Mon engagement dans cet univers dynamique ne se limite pas à des heures de jeu, mais se traduit également par une appréciation plus profonde de la créativité et de l'innovation dans le domaine du jeu vidéo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- Portfolio Modal 7-->
+                <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" aria-labelledby="portfolioModal7" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Chercher l'excellence</h2>
+                                            <!-- Icon Divider-->
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circuit.jpg" alt="..." />
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">Je suis aussi un passionné d’automobile et de moto. Je m’informe régulièrement sur les nouveautés, je me rends dans des salons automobiles et je conduis de temps en temps sur circuit. C’est un sport qui permet de donner le meilleur de soi-même et rechercher l’excellence, car au fil des tours de circuit, on souhaite constamment améliorer son chrono. </p>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Modal 8-->
+                <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" aria-labelledby="portfolioModal8" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Animer les présentations</h2>
+                                            <!-- Icon Divider-->
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/presentation.jpg" alt="..." />
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">J’ai aussi développé au fil des années, un intérêt pour les logiciels de présentation et de retouches photos tels que PowerPoint, Canvas ou encore Photoshop. J’ai cherché à m’autoformer en suivant des formations vidéo et je suis à présent capable de bien les maitriser. Lors des projets au sein de mon école, j’étais toujours chargé de réaliser les présentations, la mise en valeur du projet. Je réalisais des présentations modernes, captivantes et j’essayais, à travers les slides, de faire vivre, raconter une histoire. </p>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Modal 9-->
+                <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" aria-labelledby="portfolioModal9" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                        <div class="modal-content">
+                            <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                            <div class="modal-body text-center pb-5">
+                                <div class="container">
+                                    <div class="row justify-content-center">
+                                        <div class="col-lg-8">
+                                            <!-- Portfolio Modal - Title-->
+                                            <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">La bourse</h2>
+                                            <!-- Icon Divider-->
+                                            <div class="divider-custom">
+                                                <div class="divider-custom-line"></div>
+                                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                                <div class="divider-custom-line"></div>
+                                            </div>
+                                            <!-- Portfolio Modal - Image-->
+                                            <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bourse.jpg" alt="..." />
+                                            <!-- Portfolio Modal - Text-->
+                                            <p class="mb-4">Depuis quelques mois maintenant, j’ai aussi commencé à m’intéresser au monde de la bourse. J’ai pu apprendre et me former sur ce sujet. A l’aide d’une application, j’ai appliqué mes apprentissages et simulé des placements afin de voir si cela pouvait être fructifiant. </p>
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--Contact-->
+        <section class="contact-section bg-secondary text" id="contact">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-6 mb-3 mb-md-0 py-5">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a class="card" href="mailto:tom.beague@free.fr"><h4>tom.beague@free.fr</h4></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3 mb-md-0 py-5">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><h4>+33 7 67 50 09 33</h4></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" target="_blank" href="assets/img/Nouveau document/CV.pdf"><i class="fa fa-user"></i></a>
+                    <a class="mx-2" target="_blank" href="https://www.instagram.com/tbg_photographie/?hl=fr"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+               <!-- Footer-->
+       <footer class="footer bg-secondary small text-center text-white-50"><div class="container">Copyright © Tom Beague 2024</div></footer>
+         <!-- Bootstrap core JS-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+         <!-- Third party plugin JS-->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>                   
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script src="js/all.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
